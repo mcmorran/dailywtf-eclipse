@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: The Daily WTF Submittor
 Bundle-SymbolicName: com.opengridsystems.wtf.submission.ui;singleton:=true
-Bundle-Version: 1.0.0.qualifier
+Bundle-Version: 1.0.1.qualifier
 Bundle-Activator: com.opengridsystems.wtf.submission.ui.Activator
 Bundle-Vendor: Open Grid Systems Ltd.
 Require-Bundle: org.eclipse.ui,

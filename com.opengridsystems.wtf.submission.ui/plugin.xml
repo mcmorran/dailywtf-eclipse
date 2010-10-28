@@ -4,16 +4,27 @@
    <extension
          point="org.eclipse.ui.popupMenus">
       <viewerContribution
-            id="com.opengridsystem.wtf.submission.ui.contribution"
+            id="com.opengridsystem.wtf.submission.ui.contributionTest"
             targetID="#TextEditorContext">
          <action
                class="com.opengridsystems.wtf.submission.ui.popup.actions.SubmitAction"
-               id="com.opengridsystem.wtf.submission.ui.newAction"
+               id="com.opengridsystem.wtf.submission.ui.textAction"
                label="Submit to TDWTF"
                icon="icons/wtf16.png"
                menubarPath="additions	">
          </action>
       </viewerContribution>
+	  <viewerContribution
+            id="com.opengridsystem.wtf.submission.ui.contributionJava"
+            targetID="#CompilationUnitEditorContext">
+         <action
+               class="com.opengridsystems.wtf.submission.ui.popup.actions.SubmitAction"
+               id="com.opengridsystem.wtf.submission.ui.javaAction"
+               label="Submit to TDWTF"
+               icon="icons/wtf16.png"
+               menubarPath="additions	">
+         </action>
+      </viewerContribution>      
    </extension>
 
 </plugin>
