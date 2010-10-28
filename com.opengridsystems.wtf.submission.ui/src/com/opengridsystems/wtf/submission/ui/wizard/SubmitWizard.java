@@ -13,8 +13,6 @@ package com.opengridsystems.wtf.submission.ui.wizard;
 import java.lang.reflect.InvocationTargetException;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.HashMap;
-import java.util.Map;
 
 import org.eclipse.core.runtime.IProgressMonitor;
 import org.eclipse.core.runtime.Status;
@@ -28,7 +26,6 @@ import org.eclipse.jface.wizard.Wizard;
 import org.eclipse.ui.INewWizard;
 import org.eclipse.ui.IWorkbench;
 import org.eclipse.ui.plugin.AbstractUIPlugin;
-import org.springframework.jmx.access.InvocationFailureException;
 
 import com.opengridsystems.wtf.submission.ui.Activator;
 import com.thedailywtf.SubmitWTF;
