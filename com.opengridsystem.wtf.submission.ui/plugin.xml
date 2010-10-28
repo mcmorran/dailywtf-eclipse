@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.popupMenus">
+      <viewerContribution
+            id="com.opengridsystem.wtf.submission.ui.contribution"
+            targetID="#TextEditorContext">
+         <action
+               class="com.opengridsystems.wtf.submission.ui.popup.actions.SubmitAction"
+               id="com.opengridsystem.wtf.submission.ui.newAction"
+               label="Submit to TDWTF"
+               icon="icons/wtf16.png"
+               menubarPath="additions	">
+         </action>
+      </viewerContribution>
+   </extension>
+
+</plugin>
